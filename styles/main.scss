@@ -8,6 +8,7 @@
 @import "search";
 @import 'article-format1';
 @import 'article-format2';
+@import 'footer';
 
 //popular
 .popular {
@@ -42,4 +43,28 @@
       color: #356EAD;
     }
   }
+}
+
+//allarticles
+.allarticles__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+//grid-wrapper
+.grid-wrapper{
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns:auto auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.grid-wrapper > div {
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 20px;
 }

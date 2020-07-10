@@ -412,6 +412,68 @@ img {
   font-size: 1.4rem;
 }
 
+.footer {
+  background: #316099;
+  color: #fff;
+  border-radius: 0px 85px 0px 0px;
+  width: 90vw;
+}
+
+.footer .FooterH1 {
+  color: #fff;
+  font-size: 27px;
+  line-height: 37px;
+  margin-top: 50px;
+}
+
+.footer .buttom {
+  background-color: #5A98D0;
+  color: #fff;
+  margin-top: 90px;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.footerWrapper section {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 1rem;
+  margin-bottom: 40px;
+  justify-items: center;
+  margin-left: 70px;
+}
+
+.SocialFooter {
+  display: -ms-grid;
+  display: grid;
+  height: 35vh;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin-left: 70px;
+}
+
+.SocialFooter > div {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.divisionFoot {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 .popular {
   border-bottom: 1px solid #000;
   padding-bottom: 20px;
@@ -446,5 +508,29 @@ img {
 
 .popular__link a {
   color: #356EAD;
+}
+
+.allarticles__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.grid-wrapper {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  width: 100%;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.grid-wrapper > div {
+  text-align: justify;
+  padding: 20px 0;
+  font-size: 18px;
+  line-height: 20px;
 }
 /*# sourceMappingURL=main.css.map */
