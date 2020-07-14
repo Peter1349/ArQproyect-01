@@ -17,8 +17,18 @@ $font-family: (
 /*
 *COLORS
 */
-
 $color-elements: (
   body: #000,
   links: #1f3f68,
 );
+
+
+/*
+*BREAKPOINTS
+*/
+$breakpoints:(
+  lg: 1060px,
+  md: 860px,
+  sm: 640px,
+  xs: 420px,
+  );

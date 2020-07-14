@@ -1,4 +1,5 @@
 @import "variables";
+@import 'mixing/breakpoints';
 @import "reset";
 @import "globals";
 @import "layout";
@@ -8,42 +9,9 @@
 @import "search";
 @import 'article-format1';
 @import 'article-format2';
+@import 'popular';
 @import 'footer';
 
-//popular
-.popular {
-  border-bottom: 1px solid #000;
-  padding-bottom: 20px;
-  margin-bottom: 60px;
-
-  &__title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-
-  &__all {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    margin-bottom: 40px;
-  }
-
-  &__article-format1 {
-    margin-bottom: 20px;
-  }
-
-  &__link {
-    text-align: right;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    font-weight: bold;
-
-    a {
-      color: #356EAD;
-    }
-  }
-}
 
 //allarticles
 .allarticles__title {

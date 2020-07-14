@@ -8,4 +8,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 100px;
+
+  @include breakpoints(lg){
+    padding: 20px;
+  }
+}
+
+
+.main{
+  @include breakpoints(lg){
+    padding: 20px;
+    
+    &__container{
+      padding: 0 20px;
+    }
+  }
 }
